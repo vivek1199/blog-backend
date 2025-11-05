@@ -1,0 +1,1 @@
+# Blog Backend API\nSimple Express + MongoDB blog backend with JWT auth.

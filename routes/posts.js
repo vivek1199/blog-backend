@@ -1,0 +1,2 @@
+const express=require('express');const Post=require('../models/Post');const router=express.Router();
+router.get('/',async(req,res)=>res.json(await Post.find()));router.post('/',async(req,res)=>res.json(await Post.create(req.body)));module.exports=router;
